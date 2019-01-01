@@ -5,10 +5,12 @@ Vue.use(Vuex);
 
 export default new Vuex.Store({
   state: {
-
+    enterd: false
   },
   mutations: {
-
+    click(state){
+      state.enterd = !state.enterd
+    }
   },
   actions: {
 
